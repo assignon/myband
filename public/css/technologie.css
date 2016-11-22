@@ -1,0 +1,118 @@
+
+
+#technologie{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ border: 1px soliud crimson;
+ justify-content: center;
+   margin-top: 100px;
+
+}
+
+.techContainer{
+
+  width: 350px;
+  height: auto;
+  margin: 20px;
+  border: 3px solid crimson;
+  border-radius: 3px;
+
+
+}
+
+.techImg{
+
+  width: 350px;
+  height: 350px;
+  cursor: pointer;
+
+  border-radius: 1px;
+
+}
+
+.techImg:hover{
+
+  transition: opacity 1.0s linear 0s;
+  opacity: 0.5;
+
+}
+
+
+.vidVenster{
+
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid green;
+  position: relative;
+  left: 400px;
+
+}
+
+.frame{
+
+  width: 700px;
+  height: 500px;
+  border: 1px solid crimson;
+
+}
+
+.contentContainer{
+
+  width: 80%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid crimson;
+  border-bottom: 3px solid crimson;
+  justify-content: space-between;
+  position: relative;
+  /*bottom: 100px;*/
+  left: 150px;
+  /*margin-top: -500px;*/
+  z-index: 2;
+  background-color: crimson;
+
+}
+
+.vidContent{
+
+  width: 500px;
+  height: 360px;
+  color: white;
+  background-color: crimson;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.vidClose{
+
+  width: 60px;
+  height: 60px;
+  border: 2px solid crimson;
+  border-radius: 100%;
+  color: crimson;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  right: 350px;
+  cursor: pointer;
+
+}
+
+.vidClose:hover{
+
+  background-color: crimson;
+  border: 2px solid white;
+  color: white;
+
+}

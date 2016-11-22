@@ -1,0 +1,178 @@
+
+
+#slider{
+
+  width: 100%;
+  height: 300px;
+    background-color: whitesmoke;
+}
+
+#lesson_container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+
+}
+
+#zoekContainer{
+
+  width: 450px;
+  height: auto;
+  display: flex;;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+}
+
+.englobe img{
+
+  width: 200px;
+  height: 200px;
+
+}
+
+form{
+
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  border-radius: 100%;
+
+}
+
+input{
+
+
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid #3498db;
+  color: #3498db;
+  font-size: 18px;
+  padding-left: 10px;
+
+}
+
+#lesson{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  right: 5px;
+
+
+}
+
+.globalDiv{
+
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+    height: auto;
+
+
+}
+
+.course{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: -190px;
+    margin-top: 200px;
+
+}
+
+.courseImg{
+
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    border: 1px solid crimson;
+    margin-top: 50px;
+    position: relative;
+    bottom: 200px;
+
+}
+
+.courseImg:hover{
+
+ width: 200px;
+ height: 200px;
+
+}
+
+.courseTitel{
+
+    text-align: center;
+    color: #2ecc71;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+.courseImg:hover> .courseTitel{
+
+   font-size: 20px;
+   color: black;
+
+}
+
+.return{
+
+  width: 200px;
+  height: 40px;
+  border: 1px solid #3498db;
+  border-radius: 3px;
+  color: white;
+  background-color: #3498db;
+  margin-left: -200px;
+  position: relative;
+  top: 20px;
+  right: 50px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.return:hover{
+
+  background-color: white;
+  color: #3498db;
+
+}
+
+
+.result{
+
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.result_img{
+
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+
+}

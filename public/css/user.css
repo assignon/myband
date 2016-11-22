@@ -1,0 +1,509 @@
+body, html{
+
+ margin: 0px;
+  padding: 0px;
+}
+
+
+#menu{
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F81B84;
+
+}
+
+#logo{
+
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+
+}
+
+#menu nav{
+
+    width: auto;
+    height: auto;
+}
+
+#menu nav ul{
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#menu nav ul li{
+
+    list-style: none;
+    /*margin-left: 20px;*/
+
+}
+
+
+#menu nav ul li a{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid white;
+    position: relative;
+    top: 3px;
+    background-color: #F81B84;
+   /* border-left: 2px solid #02558B;*/
+
+}
+
+#menu nav ul li a:hover{
+
+    background-color: white;
+    color: #F81B84;
+
+}
+
+#dash{
+
+    border-radius: 2px 0px 0px 2px;
+
+}
+
+#lessen{
+
+    border-radius: 0px;
+}
+
+#user_parameter{
+
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 80px;
+  margin-left: 1100px;
+  margin-top: -80px;
+
+}
+
+
+#login{
+
+  width: 70px;
+  height: 70px;
+  border: 1px solid green;
+  border-radius: 100%;
+  position: relative;
+  bottom: 10px;
+  left: 150px;
+
+}
+
+#user_avatar{
+
+  width: 70px;
+  height: 70px;
+  border: 1px solid green;
+  border-radius: 100%;
+  position: relative;
+  bottom: 50px;
+  left: 150px;
+  cursor: pointer;
+}
+
+#parameter{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  border: 1px solid blue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  top: 30px;
+  right: 20px;
+  display: none;
+
+}
+
+#parameter a{
+
+  width: 75px;
+  height: 75px;
+  border: 1px solid blue;
+  border-radius: 100%;
+
+}
+
+#sociaal{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: auto;
+    position: relative;
+    right: 100px;
+
+
+}
+
+#sociaal a{
+
+    margin-left: 30px;
+    position: relative;
+    top: 2px;
+    width: auto;
+    height: auto;
+}
+
+
+#core{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*.container:first-child{
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+
+}*/
+
+.daschboard{
+
+    width: 400px;
+    height: 250px;
+    border: 2px solid crimson;
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+}
+
+.dashcontainer{
+
+  width: 100%;
+  height: auto;
+
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.container{
+
+  width: 100%;
+  height: auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+#lecons{
+
+
+
+
+}
+
+.lesContainer{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+  height: auto;
+
+
+}
+
+.leconContainer{
+
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+
+}
+
+#lessonArrContainer{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 100%;
+   height: auto;
+   background-color: #95a5a6;
+   margin-bottom: -100px;
+
+
+}
+
+ h1{
+
+  text-align: center;
+  margin: auto;
+  color: white;
+  width: 100%;
+  background-color: #3498db;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.lessonArr{
+
+  width: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+
+
+}
+
+.lessonArrHead{
+
+  color: #f1c40f;
+  text-align: center;
+  width: 350px;
+  height: 40px;
+  background-color: #34495e;
+  margin-bottom: 0px;
+
+}
+
+.leconContainerlink{
+
+  width: auto;
+  height: auto;
+  text-decoration: none;
+
+}
+
+.leconContainerimg{
+
+  width: 350px;
+  height: 350px;
+
+}
+
+.leconContainerpara{
+
+  padding: 15px;
+  width: 320px;
+  height: 105px;
+  color: #f1c40f;
+  font-size: 18px;
+  background-color: #ecf0f1;
+    margin-top: -20px;
+    overflow: auto;
+
+}
+
+#publishArrContainer{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  background-color: #ecf0f1;
+  margin-bottom: -100px;
+
+
+}
+
+.publishedArr{
+
+  width: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+
+}
+
+.publishedArrHead{
+
+  color: white;
+  text-align: center;
+  width: 350px;
+  height: 40px;
+  background-color: #34495e;
+  margin-bottom: 0px;
+  border-radius: 3px 3px 0px 0px;
+
+}
+
+.publishedContainerlink{
+
+  width: auto;
+  height: auto;
+  text-decoration: none;
+
+}
+
+.publishedContainerimg{
+
+  width: 350px;
+  height: 350px;
+
+}
+
+.publishedContainerpara{
+
+  padding: 15px;
+  width: 320px;
+  height: 200px;
+  color: white;
+  font-size: 18px;
+  background-color: #f1c40f;
+    margin-top: -20px;
+    border-radius: 0px 0px 3px 3px;
+
+}
+
+#gebeurtenissenContainer{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  background-color: crimson;
+
+}
+
+
+.gebeurtenissenArr{
+
+  width: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #3498db;
+  margin-bottom: 100px;
+  margin-top: 80px;
+  border-radius: 3px;
+
+}
+
+
+.gebeurtenissenArrHead{
+
+  color: white;
+  text-align: center;
+  width: 350px;
+  height: 40px;
+  background-color: #3498db;
+  margin-bottom: 0px;
+  border-radius: 3px 3px 0px 0px;
+
+}
+
+.gebeurtenissenContainerlink{
+
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  margin-bottom: -50px;
+
+}
+
+.gebeurtenissenContainerlink:hover{
+
+  transition: opacity 1.0s linear 0s;
+  opacity: 0.5;
+}
+
+.gebeurtenissenContainerimg{
+
+  width: 350px;
+  height: 350px;
+
+}
+
+.gebeurtenissenContainerpara{
+
+  padding: 15px;
+  width: 320px;
+  height: 130px;
+  color: white;
+  font-size: 18px;
+  background-color: #3498db;
+    margin-top: -20px;
+    border-radius: 0px 0px 3px 3px;
+
+}
+
+#interressante{
+
+
+}
+
+#lecons{
+
+
+}
+
+#gebeurtenissen{
+
+
+}
+
+#geplubliceerd{
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+
+
+}
+
+#geplubliceerd h2{
+
+  background-color: #2ecc71;
+}
+
+/*.container:nth-child(2) {
+
+   flex-direction: column;
+
+
+}*/

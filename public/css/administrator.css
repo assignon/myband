@@ -1,0 +1,200 @@
+html,body{
+    
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+#container{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.vensters{
+    
+    width: 13%;
+    height: 50px;
+    border: 2px solid crimson;
+    cursor: pointer;
+    
+}
+
+.vensters:hover{
+    
+    border: 0px;
+}
+
+.vensters p{
+    
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    bottom: 7px;
+}
+
+#cms{
+    
+    width: auto;
+    height: auto;
+    padding: 50px;
+    
+    
+}
+
+.cms-vensters{
+    
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-color: white;
+    
+    
+}
+
+.cms-vensters:first-child{
+    
+    z-index: 8;
+    
+}
+
+.cms-vensters:nth-child(2){
+    
+    z-index: 7;
+    opacity: 0;
+  
+}
+
+.cms-vensters:nth-child(3){
+    
+    z-index: 6;
+    opacity: 0;
+   
+}
+
+.cms-vensters:nth-child(4){
+    
+    z-index: 5;
+    opacity: 0;
+    
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.cms-vensters:nth-child(5){
+    
+    z-index: 4;
+    opacity: 0;
+    
+    
+}
+
+.cms-vensters:nth-child(6){
+    
+    z-index: 3;
+    opacity: 0;
+    
+}
+
+.cms-vensters:nth-child(7){
+    
+    z-index: 2;
+    opacity: 0;
+    
+}
+
+
+.subject{
+    
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    
+}
+
+.subject form{
+    
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.subject form input{
+    
+    width: 350px;
+    height: 40px;
+    border: 2px solid crimson;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    background-color: crimson;
+   
+    
+}
+
+.subject form textarea{
+    
+    width: 350px;
+    height: 200px;
+    border: 2px solid crimson;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    background-color: crimson;
+    
+}
+
+.subject form input[type='submit']{
+    
+    
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

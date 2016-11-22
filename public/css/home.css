@@ -1,0 +1,566 @@
+#core{
+
+
+    width: auto;
+    height: auto;
+}
+
+#slider{
+
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+#entete{
+
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+
+}
+
+#slide-post{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    background-color: #ecf0f1;
+    border-top: 1px solid #00a1f1;
+    border-left-color: 1px solid #00a1f1;
+    border-right: 1px solid #00a1f1;
+
+}
+
+#slide-post video{
+
+    width: 900px;
+    height: 400px;
+
+    background-image: url(../media/images/hololens.jpg);
+
+}
+
+#post{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 390px;
+    height: auto;
+    position: relative;
+   /* left: 50px;*/
+    margin: 0px;
+    padding-left: 54px;
+    border-left: 1px solid #00a1f1;
+    background-image: url(../media/images/microsoft-logo.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}
+
+.last-post:first-child{
+
+    border: 1px solid #ffbb00;
+    background-image: url(../media/images/surfaceBook.jpg);
+}
+
+.last-post:nth-child(2){
+
+    border: 1px solid #7cbb00;
+    background-image: url(../media/images/surfacePro.jpg);
+}
+
+.last-post:nth-child(3){
+
+    border: 1px solid #00a1f1;
+    background-image: url(../media/images/lumia.jpg);
+}
+
+.last-post:nth-child(4){
+
+    border: 1px solid #f65314;
+    background-image: url(../media/images/microsoft-hololens.jpg);
+}
+
+.last-post{
+
+    width: 155px;
+    height: 155px;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 10px;
+    z-index: 2;
+
+}
+
+.last-post:hover{
+
+    transition: padding 1.0s ease 0s;
+    padding: 5px;
+    background-size: contain;
+}
+
+.last-post:hover .play{
+
+    transition: opacity 1.0s linear 0s;
+    opacity: 1;
+    z-index: 3;
+
+}
+
+.play{
+
+    width: 60px;
+    height: 60px;
+    border: 2px solid blue;
+    background-color: blue;
+    opacity: 0;
+
+}
+
+
+#about{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #00a1f1;
+    border-bottom: 0px;
+    width: 1345px;
+    height: auto;
+
+
+}
+
+#inv-news{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 1px solid #00a1f1;
+    width: 75%;
+    height: auto;
+
+
+}
+
+#news-head{
+
+  margin: auto;
+  color: white;
+  background-color: #3498db;
+  padding: 15px;
+  border: 1px solid #3498db;
+  border-radius: 3px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+
+}
+
+#inv_head{
+
+  margin: auto;
+  color: white;
+  background-color: #1abc9c;
+  padding: 15px;
+  border: 1px solid #1abc9c;
+  border-radius: 3px 3px 0px 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+
+#news{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+#news .lastNews{
+
+    width: 350px;
+    height: 400px;
+    border: 1px solid crimson;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    overflow: hidden;
+
+}
+
+
+
+.bericht:first-child{
+
+    height: 240px;
+     width: 100%;
+    cursor: pointer;
+}
+
+/*.bericht:first-child:hover{
+
+    transition: height 1.0s linear 0s;
+    height: 350px;
+
+
+
+}*/
+
+.bericht:nth-child(2){
+
+     width: 330px;
+    height: 142px;
+    margin-bottom: -1px;
+    margin-top: -1px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+
+    background-color: crimson;
+
+}
+
+.more{
+
+    width: 80px;
+    height: auto;
+    padding: 10px;
+    background-color: #00a1f1;
+    color: crimson;
+    border-radius: 3px;
+    margin-top: -40px;
+    position: relative;
+    bottom: 15px;
+    left: 230px;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.more:hover{
+
+    background-color: white;
+
+
+}
+
+#inventions{
+ display: flex;
+ flex-direction: column;
+ width: auto;
+ height: auto;
+
+}
+
+#invention{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    border-bottom: 0px;
+    border-top: 1px solid #00a1f1;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+
+}
+
+#invention .lastInvention{
+
+    width: 300px;
+    height: 250px;
+    border: 1px solid #00a1f1;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.inventionImg{
+
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  z-index: 1;
+
+}
+
+.playVideo{
+
+  width: 70px;
+  height: 70px;
+  border: 1px solid crimson;
+  border-radius: 3px;
+  background-color: black;
+  position:relative;
+  z-index: 2;
+  left: 110px;
+  top: 85px;
+
+}
+
+.vidVenster{
+
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid green;
+  position: relative;
+  left: 400px;
+
+}
+
+.frame{
+
+  width: 700px;
+  height: 500px;
+  border: 1px solid crimson;
+
+}
+
+.contentContainer{
+
+  width: 80%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid crimson;
+  border-bottom: 3px solid crimson;
+  justify-content: space-between;
+  position: relative;
+  bottom: 300px;
+  left: 150px;
+  margin-top: -1000px;
+  z-index: 2;
+  background-color: crimson;
+
+}
+
+.vidContent{
+
+  width: 500px;
+  height: 360px;
+  color: white;
+  background-color: crimson;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+#about aside{
+
+    width: 25%;
+    height: auto;
+    border-left: 1px solid #00a1f1;
+    border-bottom: 1px solid #00a1f1;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+.linkVid{
+
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: crimson;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 4px;
+  position: relative;
+    margin-left: 350px;
+    bottom: 30px;
+
+}
+
+.linkVid:hover{
+
+    background-color: white;
+    color: crimson;
+
+}
+
+.vidClose{
+
+  border: 2px solid crimson;
+  border-radius: 100%;
+  background-color: white;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  color: crimson;
+  position: relative;
+  bottom: 500px;
+  left: 400px;
+
+}
+
+.vidClose:hover{
+
+  background-color: crimson;
+  border: 2px solid white;
+  color: white;
+
+}
+
+#rss{
+
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  overflow: hidden;
+
+}
+
+#article{
+
+    width: 300px;
+    height: auto;
+    margin-top: 70px;
+    border: 2px solid crimson;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#courses{
+ display: flex;
+ flex-direction: column;
+ width: auto;
+ height: auto;
+
+}
+
+#courses h1{
+ margin: auto;
+ color: white;
+ border: 1px solid #f65314;
+ border-top: 0px;
+ border-radius: 0px 0px 3px 3px;
+ background-color: #f65314;
+ padding: 10px;
+/* padding-left: 110px;*/
+ width:380px;
+ text-align: center;
+
+
+}
+
+#lesson{
+
+    width: 1345px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    border-top: 0px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.lessonContainer{
+
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f65314;
+  border-radius: 3px;
+  background-color: #f65314;
+
+}
+
+.lessons{
+
+    width: 400px;
+    height: 300px;
+
+}
+
+.lessonTitle{
+
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #f65314;
+  background-color: white;
+  position: relative;
+  top: 10px;
+  padding-top: 7px;
+  margin-top: -9px;
+
+}
+
+.lessonContent{
+
+   width: 380px;
+   height: auto;
+   padding: 10px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   text-align: justify;
+   background-color: #f65314;
+   color: white;
+
+}
+
+.lessonLink{
+
+  width: 90px;
+  height: 15px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 3px;
+  margin: auto;
+  margin-bottom: 5px;
+  padding-bottom: 15
+
+}
+
+.lessonLink:hover{
+
+  background-color: white;
+  color: #f65314;
+
+}
+
+footer{
+
+    width: 1347px;
+    height: 200px;
+    background-color: crimson;
+}

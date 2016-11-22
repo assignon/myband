@@ -1,0 +1,230 @@
+#filmContainer{
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 100px;
+  z-index: 1;
+
+}
+
+.video{
+
+  width: 950px;
+  height: 550px;
+  border: 2px solid #2ecc71;
+  background-color: #2ecc71;
+  border-radius: 4px;
+  position: relative;
+  bottom: 150px;
+  margin-left: 200px;
+  margin-top: -620px;
+  margin-bottom: -20px;
+
+}
+
+.video_private{
+
+  width: 950px;
+  height: 550px;
+  border: 2px solid crimson;
+  background-color: crimson;
+  border-radius: 4px;
+  position: relative;
+  bottom: 150px;
+  margin-left: 200px;
+  margin-top: -620px;
+  margin-bottom: -20px;
+
+}
+
+.closeVideo{
+
+  width: 60px;
+  height: 60px;
+  border: 2px solid #2ecc71;
+  border-radius: 100%;
+  background-color: white;
+  color: #2ecc71;
+  cursor: pointer;
+
+}
+
+.closeVideo_private{
+
+  width: 60px;
+  height: 60px;
+  border: 2px solid crimson;
+  border-radius: 100%;
+  background-color: white;
+  color: crimson;
+  cursor: pointer;
+
+}
+
+.closeVideo:hover{
+
+  background-color: #2ecc71;
+  border: 2px solid white;
+  color: white;
+}
+
+.closeVideo_private:hover{
+
+  background-color: crimson;
+  border: 2px solid white;
+  color: white;
+}
+
+.iframe{
+
+  width: 940px;
+  height: 480px;
+  border: 1px solid #2ecc71;
+  border-radius: 3px;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+
+.iframe_private{
+
+  width: 940px;
+  height: 480px;
+  border: 1px solid crimson;
+  border-radius: 3px;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+
+
+.privateLes{
+
+  width: 940px;
+  height: 480px;
+  border: 1px solid crimson;
+  border-radius: 3px;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+
+.linkRegister{
+
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  bottom: 70px;
+  left: 600px;
+
+}
+
+.linkRegister:hover{
+
+   color: crimson;
+   background-color: white;
+
+}
+
+#titre{
+
+  text-align: center;
+  color: crimson;
+
+
+}
+
+#lessonsVid{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+
+}
+
+.lessonsvid{
+
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #2ecc71;
+  border-radius: 3px;
+  background-color: #2ecc71;
+  width: auto;
+  height: auto;
+  margin: 40px;
+  margin-top: 50px;
+
+}
+
+.lessonsvid_private{
+
+  display: flex;
+  flex-direction: column;
+  border: 2px solid crimson;
+  border-radius: 3px;
+  background-color: crimson;
+  width: auto;
+  height: auto;
+  margin: 40px;
+  margin-top: 50px;
+
+}
+
+.lessonsImg{
+
+  width: 350px;
+  height: 350px;
+  cursor: pointer;
+
+}
+
+.lessonsImg_private{
+
+  width: 350px;
+  height: 350px;
+  cursor: pointer;
+
+}
+
+.lessonsImg:hover{
+
+  transition:  opacity 1.0s linear 0s;
+  opacity: 0.5;
+}
+
+.lessonsImg_private:hover{
+
+  transition:  opacity 1.0s linear 0s;
+  opacity: 0.5;
+}
+
+.lessonsHead{
+
+   text-align: center;
+   color: white;
+   margin-bottom: -7px;
+   position: relative;
+   bottom: 15px;
+
+}
+
+.lessonsHead_private{
+
+   text-align: center;
+   color: white;
+   margin-bottom: -7px;
+   position: relative;
+   bottom: 15px;
+
+}
